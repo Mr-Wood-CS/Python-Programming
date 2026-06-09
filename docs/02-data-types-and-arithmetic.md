@@ -1,4 +1,4 @@
-# Python Data Types and Arithmetic
+# :material-language-python: Python Data Types and Arithmetic
 
 <table>
   <thead>
@@ -33,7 +33,7 @@
 
 ---
 
-## Today's Keywords
+## :material-key-variant: Today's Keywords
 
 <table class="keywords-table">
   <thead>
@@ -72,7 +72,7 @@
 
 ---
 
-## Comments
+## :material-comment-text-outline: Comments
 
 Comments are notes written by programmers.
 
@@ -90,7 +90,7 @@ Comments can be used to:
 
 ---
 
-## What is a Data Type?
+## :material-database-outline: What is a Data Type?
 
 A data type tells the computer what kind of information is being stored.
 
@@ -138,7 +138,7 @@ Different types of data are stored and used in different ways.
 
 ---
 
-## Why Are Data Types Important?
+## :material-help-circle-outline: Why Are Data Types Important?
 
 Look at the following code:
 
@@ -169,7 +169,7 @@ Instead of adding the numbers together, it joins the text.
 
 ---
 
-## Converting Data Types
+## :material-swap-horizontal: Converting Data Types
 
 We can convert data into an integer using int().
 
@@ -195,7 +195,7 @@ temperature = float(input("Enter a temperature: "))
 
 ---
 
-# Arithmetic Operators
+## :material-calculator: Arithmetic Operators
 
 | Operator | Meaning | Example |
 |-----------|-----------|-----------|
@@ -206,7 +206,7 @@ temperature = float(input("Enter a temperature: "))
 
 ---
 
-## Worked Example
+## :material-lightbulb-on: Worked Example
 
 Create a program that asks for two numbers and displays the total.
 
@@ -219,7 +219,7 @@ total = num1 + num2
 print("The total is", total)
 ```
 
-### Step-by-Step
+**Step-by-Step**
 
 1. The user enters two numbers.
 2. int() converts the inputs into integers.
@@ -229,100 +229,102 @@ print("The total is", total)
 
 ---
 
-# Programming Tasks
+## :material-format-list-checks: Programming Tasks
 
-=== "Level 1"
+!!! question "Start at Level 1 and go as far as you can!"
 
-    ### Task 1
+    === "Level 1"
 
-    Ask the user for two whole numbers.
+        **Task 1**
 
-    Add the numbers together and display the answer.
+        Ask the user for two whole numbers.
 
-    **Example output:** `The total is 15`
+        Add the numbers together and display the answer.
 
-    ### Task 2
+        **Example output:** `The total is 15`
 
-    Ask the user for two whole numbers.
+        **Task 2**
 
-    Subtract the second number from the first number and display the answer.
+        Ask the user for two whole numbers.
 
-    **Example output:** `The difference is 4`
+        Subtract the second number from the first number and display the answer.
 
-=== "Level 2"
+        **Example output:** `The difference is 4`
 
-    ### Task 3
+    === "Level 2"
 
-    Ask the user for two whole numbers.
+        **Task 3**
 
-    Multiply the numbers together and display the answer.
+        Ask the user for two whole numbers.
 
-    **Example output:** `The product is 24`
+        Multiply the numbers together and display the answer.
 
-    ### Task 4
+        **Example output:** `The product is 24`
 
-    Ask the user for two numbers.
+        **Task 4**
 
-    Divide the first number by the second number and display the answer.
+        Ask the user for two numbers.
 
-    **Remember:** Use `float()` if the answer might include a decimal.
+        Divide the first number by the second number and display the answer.
 
-=== "Level 3"
+        **Remember:** Use `float()` if the answer might include a decimal.
 
-    ### Task 5
+    === "Level 3"
 
-    Ask the user for the length and width of a rectangle.
+        **Task 5**
 
-    Calculate and display the area.
+        Ask the user for the length and width of a rectangle.
 
-    **Formula:** `Area = Length x Width`
+        Calculate and display the area.
 
-    ### Task 6
+        **Formula:** `Area = Length x Width`
 
-    Ask the user for the price of an item and the quantity bought.
+        **Task 6**
 
-    Display the total cost.
+        Ask the user for the price of an item and the quantity bought.
 
-    **Formula:** `Total cost = Price x Quantity`
+        Display the total cost.
 
-=== "Level 4"
+        **Formula:** `Total cost = Price x Quantity`
 
-    ### Task 7
+    === "Level 4"
 
-    Create a calculator that asks the user for two numbers.
+        **Task 7**
 
-    Calculate and display:
+        Create a calculator that asks the user for two numbers.
 
-    - The total
-    - The difference
+        Calculate and display:
 
-    ### Task 8
+        - The total
+        - The difference
 
-    A cinema ticket costs £7.50.
+        **Task 8**
 
-    Ask the user how many tickets they would like.
+        A cinema ticket costs £7.50.
 
-    Calculate and display:
+        Ask the user how many tickets they would like.
 
-    - The ticket total
-    - The final cost with a £1.50 booking fee added
+        Calculate and display:
 
-=== "Challenge"
+        - The ticket total
+        - The final cost with a £1.50 booking fee added
 
-    A teacher enters three test scores.
+    === "Challenge"
 
-    Ask the user to enter all three scores.
+        A teacher enters three test scores.
 
-    Calculate and display:
+        Ask the user to enter all three scores.
 
-    - Total score
-    - Average score
+        Calculate and display:
 
-    **Hint:** `Average = Total / 3`
+        - Total score
+        - Average score
+
+        **Hint:** `Average = Total / 3`
 
 ---
 
-## Reflection
+## :material-clipboard-check-outline: Reflection
 
 Before moving on, make sure you can:
 

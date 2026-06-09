@@ -1,4 +1,4 @@
-# Python Outputs, Inputs and Variables
+# :material-language-python: Python Outputs, Inputs and Variables
 
 <table>
   <thead>
@@ -32,7 +32,7 @@
 
 ---
 
-## Today's Keywords
+## :material-key-variant: Today's Keywords
 
 <table class="keywords-table">
   <thead>
@@ -63,7 +63,7 @@
 
 ---
 
-## What is Python?
+## :material-language-python: What is Python?
 
 Python is a powerful programming language.
 
@@ -79,7 +79,7 @@ Python is popular because it is easier to read than many other programming langu
 
 ---
 
-## What is an Output?
+## :material-monitor: What is an Output?
 
 An output is information displayed by the computer.
 
@@ -101,7 +101,7 @@ Hello World
 
 ---
 
-## What is an Input?
+## :material-keyboard: What is an Input?
 
 An input is information sent from the user to the computer.
 
@@ -129,7 +129,7 @@ This program:
 
 ---
 
-## What is a Variable?
+## :material-variable: What is a Variable?
 
 A variable is a named storage place used to store data in a program.
 
@@ -159,7 +159,7 @@ You can think of a variable like a labelled box that stores information.
 
 ---
 
-## Combining Inputs and Variables
+## :material-call-merge: Combining Inputs and Variables
 
 Inputs become much more useful when we store them in variables.
 
@@ -170,7 +170,7 @@ name = input("What is your name? ")
 print(name)
 ```
 
-### What Happens Here?
+**What Happens Here?**
 
 1. Python asks the user a question.
 2. The user types an answer.
@@ -185,7 +185,7 @@ Programs become much more useful when we combine:
 
 ---
 
-## Worked Example
+## :material-lightbulb-on: Worked Example
 
 Create a program that asks for the user's name and displays a greeting.
 
@@ -195,7 +195,7 @@ name = input("What is your name? ")
 print("Hello", name)
 ```
 
-### Step-by-Step
+**Step-by-Step**
 
 1. The program asks the user for their name.
 2. The answer is stored in the variable called `name`.
@@ -204,100 +204,102 @@ print("Hello", name)
 
 ---
 
-# Programming Tasks
+## :material-format-list-checks: Programming Tasks
 
-=== "Level 1"
+!!! question "Start at Level 1 and go as far as you can!"
 
-    ### Task 1
+    === "Level 1"
 
-    Display the message:
+        **Task 1**
 
-    ```text
-    Hello World
-    ```
+        Display the message:
 
-    ### Task 2
+        ```text
+        Hello World
+        ```
 
-    Display three separate messages about yourself.
+        **Task 2**
 
-    Your program should use three `print()` statements.
+        Display three separate messages about yourself.
 
-=== "Level 2"
+        Your program should use three `print()` statements.
 
-    ### Task 3
+    === "Level 2"
 
-    Ask the user for their name.
+        **Task 3**
 
-    Store their answer in a variable.
+        Ask the user for their name.
 
-    Display their name back to them.
+        Store their answer in a variable.
 
-    ### Task 4
+        Display their name back to them.
 
-    Ask the user for their favourite game.
+        **Task 4**
 
-    Store their answer in a variable.
+        Ask the user for their favourite game.
 
-    Display a sentence that includes their favourite game.
+        Store their answer in a variable.
 
-=== "Level 3"
+        Display a sentence that includes their favourite game.
 
-    ### Task 5
+    === "Level 3"
 
-    Ask the user for:
+        **Task 5**
 
-    - Their name
-    - Their age
+        Ask the user for:
 
-    Store both answers in variables.
+        - Their name
+        - Their age
 
-    Display both pieces of information back to the user.
+        Store both answers in variables.
 
-    ### Task 6
+        Display both pieces of information back to the user.
 
-    Ask the user for:
+        **Task 6**
 
-    - Their name
-    - Their favourite food
-    - Their favourite colour
+        Ask the user for:
 
-    Display a short sentence using all three answers.
+        - Their name
+        - Their favourite food
+        - Their favourite colour
 
-=== "Level 4"
+        Display a short sentence using all three answers.
 
-    ### Task 7
+    === "Level 4"
 
-    Create a simple profile program.
+        **Task 7**
 
-    Ask the user for:
+        Create a simple profile program.
 
-    - Their name
-    - Their age
-    - Their favourite subject
+        Ask the user for:
 
-    Display the information as a short profile.
+        - Their name
+        - Their age
+        - Their favourite subject
 
-    ### Task 8
+        Display the information as a short profile.
 
-    Create a simple quiz question.
+        **Task 8**
 
-    Ask the user a question and store their answer in a variable.
+        Create a simple quiz question.
 
-    Display their answer back to them in a sentence.
+        Ask the user a question and store their answer in a variable.
 
-=== "Challenge"
+        Display their answer back to them in a sentence.
 
-    Create a mini chatbot.
+    === "Challenge"
 
-    Your program should:
+        Create a mini chatbot.
 
-    - Ask the user at least four questions.
-    - Store each answer in a variable.
-    - Display a final message using the answers.
+        Your program should:
+
+        - Ask the user at least four questions.
+        - Store each answer in a variable.
+        - Display a final message using the answers.
 
 ---
 
-## Reflection
+## :material-clipboard-check-outline: Reflection
 
 Before moving on, make sure you can:
 

@@ -4,7 +4,10 @@ nav:
     - Home: 'index.md'
     - The Basics: 
       - Outputs, Inputs and Variables: '01-outputs-inputs-and-variables.md'
-      - Data Types and Arithmetic: '02-data-types-and-arithmetic.md'
+      - Data Types and Arithmetic: 
+        - Explanation: '02-data-types-and-arithmetic.md'
+        - Next Level Tasks: '2.1-next-level-tasks.md'
+      - Selection: '03-selection.md'
       
         
         
@@ -76,4 +79,3 @@ extra_css:
 extra_javascript:
   - scripts/extra.js
     
-
