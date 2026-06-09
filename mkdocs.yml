@@ -3,11 +3,20 @@ site_name: Python Programming
 nav:
     - Home: 'index.md'
     - The Basics: 
-      - Outputs, Inputs and Variables: '01-outputs-inputs-and-variables.md'
+      - Outputs, Inputs and Variables: 
+        - Explanantion: '01-outputs-inputs-and-variables.md'
       - Data Types and Arithmetic: 
         - Explanation: '02-data-types-and-arithmetic.md'
         - Next Level Tasks: '2.1-next-level-tasks.md'
-      - Selection: '03-selection.md'
+      - Selection: 
+        - Explanation: '03-selection.md'
+        - Next Level Tasks: '3.1-next-level-tasks.md'
+     # - Assessment:
+     #   - Overview: '4.0-Assessment.md'
+     #   - Level 1: '4.1-level-1.md'
+     #  - Level 2: '4.2-level-2.md'
+     #  - Level 3: '4.3-level-3.md'
+     #  - Level 4: '4.4-level-4.md'
       
         
         
