@@ -9,23 +9,25 @@
       
       
       
+        <link rel="prev" href="../lesson-12-area2d-coin-pickups/">
       
-        <link rel="next" href="01-outputs-inputs-and-variables/">
+      
+        <link rel="next" href="../lesson-14-ui-buttons/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.18">
     
     
       
-        <title>Python Programming</title>
+        <title>Lesson 13 - Signals and Score System - Python Programming</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -109,9 +111,9 @@
       
     
     
-      <link rel="stylesheet" href="Styles/extra.css">
+      <link rel="stylesheet" href="../../Styles/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -135,7 +137,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-python-programming" class="md-skip">
+        <a href="#lesson-13-signals-and-score-system" class="md-skip">
           Skip to content
         </a>
       
@@ -151,7 +153,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Python Programming" class="md-header__button md-logo" aria-label="Python Programming" data-md-component="logo">
+    <a href="../.." title="Python Programming" class="md-header__button md-logo" aria-label="Python Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -171,7 +173,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Lesson 13 - Signals and Score System
             
           </span>
         </div>
@@ -236,11 +238,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -268,7 +268,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="01-outputs-inputs-and-variables/" class="md-tabs__link">
+        <a href="../../01-outputs-inputs-and-variables/" class="md-tabs__link">
           
   
   
@@ -289,11 +289,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="godot-beginner-tutorial/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
           
   
   
@@ -335,7 +337,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Python Programming" class="md-nav__button md-logo" aria-label="Python Programming" data-md-component="logo">
+    <a href="../.." title="Python Programming" class="md-nav__button md-logo" aria-label="Python Programming" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -350,19 +352,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -373,7 +366,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -479,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="01-outputs-inputs-and-variables/" class="md-nav__link">
+      <a href="../../01-outputs-inputs-and-variables/" class="md-nav__link">
         
   
   
@@ -557,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="02-data-types-and-arithmetic/" class="md-nav__link">
+      <a href="../../02-data-types-and-arithmetic/" class="md-nav__link">
         
   
   
@@ -580,7 +572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="2.1-next-level-tasks/" class="md-nav__link">
+      <a href="../../2.1-next-level-tasks/" class="md-nav__link">
         
   
   
@@ -658,7 +650,7 @@
   
   
     <li class="md-nav__item">
-      <a href="03-selection/" class="md-nav__link">
+      <a href="../../03-selection/" class="md-nav__link">
         
   
   
@@ -681,7 +673,7 @@
   
   
     <li class="md-nav__item">
-      <a href="3.1-next-level-tasks/" class="md-nav__link">
+      <a href="../../3.1-next-level-tasks/" class="md-nav__link">
         
   
   
@@ -716,6 +708,8 @@
       
   
   
+    
+  
   
   
     
@@ -771,18 +765,21 @@
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="godot-beginner-tutorial/" class="md-nav__link ">
+            <a href="../" class="md-nav__link ">
               
   
   
@@ -795,13 +792,13 @@
             </a>
             
               
-              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Godot Beginner Tutorial
@@ -817,7 +814,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-01-godot-setup-editor/" class="md-nav__link">
+      <a href="../lesson-01-godot-setup-editor/" class="md-nav__link">
         
   
   
@@ -840,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-02-scenes-nodes-first-scene/" class="md-nav__link">
+      <a href="../lesson-02-scenes-nodes-first-scene/" class="md-nav__link">
         
   
   
@@ -863,7 +860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-03-first-gdscript-hello-world/" class="md-nav__link">
+      <a href="../lesson-03-first-gdscript-hello-world/" class="md-nav__link">
         
   
   
@@ -886,7 +883,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-04-gdscript-variables-functions/" class="md-nav__link">
+      <a href="../lesson-04-gdscript-variables-functions/" class="md-nav__link">
         
   
   
@@ -909,7 +906,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-05-characterbody2d-physics/" class="md-nav__link">
+      <a href="../lesson-05-characterbody2d-physics/" class="md-nav__link">
         
   
   
@@ -932,7 +929,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-06-horizontal-movement/" class="md-nav__link">
+      <a href="../lesson-06-horizontal-movement/" class="md-nav__link">
         
   
   
@@ -955,7 +952,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-07-input-map-wasd/" class="md-nav__link">
+      <a href="../lesson-07-input-map-wasd/" class="md-nav__link">
         
   
   
@@ -978,7 +975,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-08-custom-controls-polish/" class="md-nav__link">
+      <a href="../lesson-08-custom-controls-polish/" class="md-nav__link">
         
   
   
@@ -1001,7 +998,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-09-gravity-jumping-vector2/" class="md-nav__link">
+      <a href="../lesson-09-gravity-jumping-vector2/" class="md-nav__link">
         
   
   
@@ -1024,7 +1021,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-10-platformer-feel/" class="md-nav__link">
+      <a href="../lesson-10-platformer-feel/" class="md-nav__link">
         
   
   
@@ -1047,7 +1044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-11-reusable-scenes-instancing/" class="md-nav__link">
+      <a href="../lesson-11-reusable-scenes-instancing/" class="md-nav__link">
         
   
   
@@ -1070,7 +1067,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-12-area2d-coin-pickups/" class="md-nav__link">
+      <a href="../lesson-12-area2d-coin-pickups/" class="md-nav__link">
         
   
   
@@ -1090,10 +1087,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-13-signals-score-system/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Lesson 13 - Signals and Score System
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1104,6 +1123,89 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-intention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Intention
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Success Criteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keywords" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keywords
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-minute-lesson-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      45 Minute Lesson Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#worked-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practical Tasks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plenary-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plenary Check
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1116,7 +1218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-14-ui-buttons/" class="md-nav__link">
+      <a href="../lesson-14-ui-buttons/" class="md-nav__link">
         
   
   
@@ -1139,7 +1241,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-15-node-communication-decoupling/" class="md-nav__link">
+      <a href="../lesson-15-node-communication-decoupling/" class="md-nav__link">
         
   
   
@@ -1162,7 +1264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-16-game-state-win-condition/" class="md-nav__link">
+      <a href="../lesson-16-game-state-win-condition/" class="md-nav__link">
         
   
   
@@ -1185,7 +1287,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-17-end-screen-scene-reset/" class="md-nav__link">
+      <a href="../lesson-17-end-screen-scene-reset/" class="md-nav__link">
         
   
   
@@ -1208,7 +1310,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-18-complete-game-loop/" class="md-nav__link">
+      <a href="../lesson-18-complete-game-loop/" class="md-nav__link">
         
   
   
@@ -1231,7 +1333,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-19-debugging-and-refinement/" class="md-nav__link">
+      <a href="../lesson-19-debugging-and-refinement/" class="md-nav__link">
         
   
   
@@ -1254,7 +1356,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-20-level-design-and-extension/" class="md-nav__link">
+      <a href="../lesson-20-level-design-and-extension/" class="md-nav__link">
         
   
   
@@ -1277,7 +1379,7 @@
   
   
     <li class="md-nav__item">
-      <a href="godot-beginner-tutorial/lesson-21-showcase-and-export/" class="md-nav__link">
+      <a href="../lesson-21-showcase-and-export/" class="md-nav__link">
         
   
   
@@ -1320,6 +1422,77 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-intention" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Intention
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#success-criteria" class="md-nav__link">
+    <span class="md-ellipsis">
+      Success Criteria
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keywords" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keywords
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#45-minute-lesson-flow" class="md-nav__link">
+    <span class="md-ellipsis">
+      45 Minute Lesson Flow
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#worked-example" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#practical-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Practical Tasks
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plenary-check" class="md-nav__link">
+    <span class="md-ellipsis">
+      Plenary Check
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1334,10 +1507,92 @@
 
 
 
-<h1 id="welcome-to-python-programming">Welcome to Python Programming</h1>
-<p><img alt="Python programming illustration" class="homepage-image" src="assets/lesson-1/python-programming.jpg" /></p>
-<p>Python is a popular programming language used to create websites, games, apps, data tools and artificial intelligence projects. It is known for being clear to read, powerful to use and a great first language for learning how programming works.</p>
-<p>As you learn Python, you will practise giving instructions to the computer, storing information, making decisions and solving problems step by step.</p>
+<h1 id="lesson-13-signals-and-score-system"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 19v1H3v-1l2-2v-6c0-3.1 2.03-5.83 5-6.71V4a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.29c2.97.88 5 3.61 5 6.71v6zm-7 2a2 2 0 0 1-2 2 2 2 0 0 1-2-2m9.75-17.81-1.42 1.42A8.98 8.98 0 0 1 21 11h2c0-2.93-1.16-5.75-3.25-7.81M1 11h2c0-2.4.96-4.7 2.67-6.39L4.25 3.19A10.96 10.96 0 0 0 1 11"/></svg></span> Lesson 13 - Signals and Score System</h1>
+<p>Source video: <a href="https://www.youtube.com/watch?v=jWh_IC6e43U">Reusable Scene! Creating a Coin Pickup</a></p>
+<h2 id="learning-intention">Learning Intention</h2>
+<p>Use signals to notify the game when coins are collected and update a score.</p>
+<h2 id="success-criteria">Success Criteria</h2>
+<ul>
+<li>I can describe what a signal does.</li>
+<li>I can emit a custom signal.</li>
+<li>I can update a score variable.</li>
+<li>I can test whether each coin increases the score.</li>
+</ul>
+<h2 id="keywords">Keywords</h2>
+<table>
+<thead>
+<tr>
+<th>Keyword</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emit</td>
+<td>Send out a signal.</td>
+</tr>
+<tr>
+<td>Listener</td>
+<td>Code that responds to a signal.</td>
+</tr>
+<tr>
+<td>Score</td>
+<td>A value that tracks progress or points.</td>
+</tr>
+<tr>
+<td>Custom signal</td>
+<td>A signal created by the programmer.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="45-minute-lesson-flow">45 Minute Lesson Flow</h2>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Activity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>5 mins</td>
+<td>Starter: draw a message from coin to game manager.</td>
+</tr>
+<tr>
+<td>10 mins</td>
+<td>Teacher demo: custom signal from coin.</td>
+</tr>
+<tr>
+<td>10 mins</td>
+<td>Guided task: connect signal to score code.</td>
+</tr>
+<tr>
+<td>15 mins</td>
+<td>Independent task: display and test score changes.</td>
+</tr>
+<tr>
+<td>5 mins</td>
+<td>Plenary: explain why signals reduce dependency.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="worked-example">Worked Example</h2>
+<div class="language-gdscript highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="k">signal</span><span class="w"> </span><span class="n">collected</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="k">func</span><span class="w"> </span><span class="n">_on_body_entered</span><span class="p">(</span><span class="n">body</span><span class="p">):</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a><span class="w">    </span><span class="n">collected</span><span class="o">.</span><span class="n">emit</span><span class="p">()</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a><span class="w">    </span><span class="n">queue_free</span><span class="p">()</span>
+</span></code></pre></div>
+<h2 id="practical-tasks">Practical Tasks</h2>
+<ol>
+<li>Add a custom <code>collected</code> signal to the coin.</li>
+<li>Emit the signal when the player enters.</li>
+<li>Create a score variable in the main scene.</li>
+<li>Increase score when a coin is collected.</li>
+<li>Print or display the updated score.</li>
+</ol>
+<h2 id="plenary-check">Plenary Check</h2>
+<p>Why might a coin send a signal instead of directly changing the score itself?</p>
 
 
 
@@ -1396,12 +1651,12 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["content.code.copy", "content.code.annotate", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.path", "navigation.tabs"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.code.annotate", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.path", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
-        <script src="scripts/extra.js"></script>
+        <script src="../../scripts/extra.js"></script>
       
     
   </body>
