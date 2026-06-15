@@ -75,7 +75,14 @@ It is used to create:
 - Data tools
 - Artificial intelligence programs
 
+
 Python is popular because it is easier to read than many other programming languages.
+
+In this lesson, you will use Python to:
+
+- Display outputs using `print()`
+- Ask the user questions using `input()`
+- Store answers in variables
 
 ---
 
@@ -98,6 +105,47 @@ This program displays the words:
 ```text
 Hello World
 ```
+
+---
+
+## :material-format-list-checks: Task One
+
+!!! question "Start at Level 1 and go as far as you can!"
+
+    === "Level 1"
+
+        In Thonny, type the following lines of code:
+
+        ```python
+        print("Hello World")
+        print("My name is ____")
+        print("I enjoy Computing Science")
+        ```
+
+    === "Level 2"
+
+        Create your own program that displays:
+
+        - Your favourite game
+        - Your favourite food
+        - A message to your class
+
+    === "Level 3"
+
+        Create a program that displays:
+
+        - A title
+        - Three different messages
+        - A blank line between sections
+
+    === "Level 4"
+
+        Create a welcome screen for a game.
+
+        Your welcome screen must include:
+
+        - A title
+        - Instructions using multiple `print()` statements
 
 ---
 
@@ -155,7 +203,25 @@ In this program:
 | `name` | The variable name |
 | `"Mr Wood"` | The value being stored |
 
+
 You can think of a variable like a labelled box that stores information.
+
+```text
+Variable Name: name
+
+┌────────────┐
+│ Mr Wood    │
+└────────────┘
+```
+
+The label on the box is the variable name and the information inside the box is the value.
+
+!!! warning "Common Mistakes"
+
+    * Forgetting speech marks around text.
+    * Misspelling a variable name.
+    * Using a different variable name in `print()` than the one used to store the value.
+    * Forgetting brackets after `print()` or `input()`.
 
 ---
 
@@ -204,98 +270,35 @@ print("Hello", name)
 
 ---
 
-## :material-format-list-checks: Programming Tasks
+## :material-format-list-checks: Task Two
 
 !!! question "Start at Level 1 and go as far as you can!"
 
     === "Level 1"
 
-        **Task 1**
-
-        Display the message:
-
-        ```text
-        Hello World
-        ```
-
-        **Task 2**
-
-        Display three separate messages about yourself.
-
-        Your program should use three `print()` statements.
+        Write a program that asks the user for their name.
 
     === "Level 2"
 
-        **Task 3**
+        Write a program that asks a user for:
 
-        Ask the user for their name.
-
-        Store their answer in a variable.
-
-        Display their name back to them.
-
-        **Task 4**
-
-        Ask the user for their favourite game.
-
-        Store their answer in a variable.
-
-        Display a sentence that includes their favourite game.
+        - Their name
+        - Their favourite colour
 
     === "Level 3"
 
-        **Task 5**
-
-        Ask the user for:
+        Write a program that asks a user for:
 
         - Their name
-        - Their age
-
-        Store both answers in variables.
-
-        Display both pieces of information back to the user.
-
-        **Task 6**
-
-        Ask the user for:
-
-        - Their name
-        - Their favourite food
         - Their favourite colour
 
-        Display a short sentence using all three answers.
+        Then display both answers.
 
     === "Level 4"
 
-        **Task 7**
+        Create a small interview program.
 
-        Create a simple profile program.
-
-        Ask the user for:
-
-        - Their name
-        - Their age
-        - Their favourite subject
-
-        Display the information as a short profile.
-
-        **Task 8**
-
-        Create a simple quiz question.
-
-        Ask the user a question and store their answer in a variable.
-
-        Display their answer back to them in a sentence.
-
-    === "Challenge"
-
-        Create a mini chatbot.
-
-        Your program should:
-
-        - Ask the user at least four questions.
-        - Store each answer in a variable.
-        - Display a final message using the answers.
+        Ask at least four questions and display all answers.
 
 ---
 
