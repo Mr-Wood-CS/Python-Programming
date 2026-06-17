@@ -11,13 +11,12 @@ nav:
       - Selection: 
         - Explanation: '03-selection.md'
         - Next Level Tasks: '3.1-next-level-tasks.md'
-  
-     # - Assessment:
-     #   - Overview: '4.0-Assessment.md'
-     #   - Level 1: '4.1-level-1.md'
-     #  - Level 2: '4.2-level-2.md'
-     #  - Level 3: '4.3-level-3.md'
-     #  - Level 4: '4.4-level-4.md'
+    - Assessment:
+      - Overview: '4.0-Assessment.md'
+      - Level 1: '4.1-level-1.md'
+      - Level 2: '4.2-level-2.md'
+      - Level 3: '4.3-level-3.md'
+      - Level 4: '4.4-level-4.md'
       
         
         
